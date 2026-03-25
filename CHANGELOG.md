@@ -6,11 +6,13 @@
 
 - **OG image dynamique** (`app/opengraph-image.tsx`) — carte 1200×630 dans le style du site : fond sombre, glow bleu, logo, titre, tags, URL `randy-code.dev`. Fonts Inter chargées localement (`assets/`)
 - **Blog — Knowledge Base** — listing d'articles avec couvertures 16:9, tags, temps de lecture ; template d'article avec hero image, prose et CTAs projets
-- **4 articles réels** avec titres SEO optimisés, descriptions enrichies et temps de lecture calculé automatiquement (~200 mots/min)
+- **6 articles réels** avec titres SEO optimisés, descriptions enrichies et temps de lecture calculé automatiquement (~200 mots/min)
   - _Créer une application SaaS de A à Z : retour d'expérience sur Liflow_
   - _Next.js 16 : pourquoi j'ai recommencé mon application SaaS de zéro_
   - _IA et développement web : mon workflow pour coder sans perdre le contrôle_
   - _InfraLens : concevoir un outil open source d'analyse de performance web_
+  - _Création de site web : pourquoi un beau design ne suffit pas pour être visible sur Google_
+  - _Combien coûte un site web en 2026 ? Les vrais prix selon le projet_
 - **Posts en fichiers séparés** — chaque article dans `content/posts/[slug].ts` ; `src/lib/blog.ts` réduit à un registre + utilitaires
 
 ### Améliorations

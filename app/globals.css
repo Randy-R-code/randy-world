@@ -109,13 +109,18 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.prose-blog ul,
+.prose-blog ul {
+  list-style-type: "— ";
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
 .prose-blog ol {
   padding-left: 1.25rem;
   margin-bottom: 1.25rem;
 }
 .prose-blog li {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
 }
 .prose-blog code {
   background: oklch(0.18 0.012 252);
