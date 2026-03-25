@@ -1,0 +1,51 @@
+"use client";
+
+import { zones } from "@/lib/data";
+import { MapConnections } from "./map-connections";
+import { MapNode } from "./map-node";
+
+export function WorldMap() {
+  return (
+    <>
+      {/* Desktop: interactive map */}
+      <div
+        className="relative hidden flex-1 md:block"
+        style={{ minHeight: "65vh" }}
+      >
+        <MapConnections />
+        {zones.map((zone, index) => (
+          <MapNode key={zone.id} {...zone} index={index} />
+        ))}
+      </div>
+
+      {/* Mobile: vertical list */}
+      <div className="flex flex-col gap-3 md:hidden">
+        {zones.map((zone) => (
+          <a
+            key={zone.id}
+            href={zone.route}
+            className="flex items-center gap-4 rounded-xl border p-4 transition-colors"
+            style={{
+              borderColor: `${zone.color}25`,
+              background: "oklch(0.13 0.012 252)",
+            }}
+          >
+            <div
+              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg"
+              style={{ backgroundColor: `${zone.color}18` }}
+            >
+              <zone.Icon size={16} style={{ color: zone.color }} />
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-white">{zone.label}</p>
+              <p className="text-xs text-zinc-500">{zone.tagline}</p>
+            </div>
+            <span className="ml-auto text-xs" style={{ color: zone.color }}>
+              →
+            </span>
+          </a>
+        ))}
+      </div>
+    </>
+  );
+}
