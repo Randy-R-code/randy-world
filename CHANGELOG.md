@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0] — 2026-03-26
+
+### Ajouts
+
+- **PWA** — site installable sur mobile et desktop : manifest (`app/manifest.ts`), icônes générées depuis `logo-r.png` (32×32, 180×180, 192×192, 512×512), `app/icon.png` et `app/apple-icon.png` pour Next.js
+- **Manifest** — `name` : "Randy Rimbault — Développeur Fullstack Freelance", `short_name` : "R-code", thème et background `#09090b`
+
+### Corrections
+
+- `next.config.js` renommé en `next.config.mjs` — supprime le warning Node.js sur les modules ES sans `"type": "module"` dans `package.json`
+
+---
+
 ## [0.3.0] — 2026-03-26
 
 ### Ajouts
