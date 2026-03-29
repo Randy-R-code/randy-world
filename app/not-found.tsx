@@ -11,7 +11,7 @@ export default function NotFound() {
         >
           404
         </p>
-        <h1 className="mb-2 text-2xl font-bold text-white">Zone introuvable</h1>
+        <h1 className="mb-2 text-2xl font-bold text-white">Page introuvable</h1>
         <p className="mb-8 text-sm text-zinc-500">
           Cette page n&apos;existe pas ou a été déplacée.
         </p>
@@ -24,7 +24,7 @@ export default function NotFound() {
           }}
         >
           <ArrowLeft size={14} />
-          Retour à la map
+          Retour à la carte
         </Link>
       </div>
     </main>

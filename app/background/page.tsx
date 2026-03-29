@@ -3,7 +3,7 @@ import { Code2, Package, Wrench, Zap } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Background — Randy World",
+  title: "Background — Randy Code",
   description:
     "Avant le code : mécanique, électricité, installations terrain et logistique. Un profil technique construit sur plusieurs années d'expériences concrètes.",
 };

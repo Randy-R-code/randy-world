@@ -3,7 +3,7 @@ import { Brain, CreditCard, ExternalLink, Lock, Users } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Apps Station — Randy World",
+  title: "Apps Station — Randy Code",
   description:
     "Applications SaaS développées par Randy Rimbault. Liflow et InfraLens — produits construits avec Next.js, TypeScript et Stripe.",
 };
@@ -137,7 +137,7 @@ export default function AppsPage() {
           <div className="mb-4 flex items-center justify-between">
             <span
               className="inline-block rounded-md px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider"
-              style={{ backgroundColor: "#22d3ee15", color: "#22d3ee" }}
+              style={{ backgroundColor: "#8b5cf618", color: "#a78bfa" }}
             >
               Disponible
             </span>

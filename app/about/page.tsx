@@ -4,7 +4,7 @@ import { Code2, ExternalLink, Lightbulb, Wrench } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Base — Randy World",
+  title: "About Base — Randy Code",
   description:
     "Randy Rimbault, développeur fullstack TypeScript freelance. Parcours, vision, stack technique et contact.",
 };

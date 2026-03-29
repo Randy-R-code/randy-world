@@ -1,4 +1,4 @@
-# Randy World
+# Randy Code
 
 Portfolio interactif de Randy Rimbault — développeur fullstack freelance.
 

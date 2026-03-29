@@ -2,7 +2,7 @@ import { PageShell } from "@/components/layout/page-shell";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lab Zone — Randy World",
+  title: "Lab Zone — Randy Code",
   description:
     "Expérimentations techniques de Randy : IA, prototypes, idées en cours. Un espace pour tester sans contraintes.",
 };

@@ -1,6 +1,6 @@
 {
-  "name": "randy-world",
-  "version": "0.5.0",
+  "name": "randy-code",
+  "version": "0.5.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Randy World`,
+    title: `${post.title} — Randy Code`,
     description: post.description,
   };
 }
@@ -138,9 +138,9 @@ export default async function BlogPostPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition-opacity hover:opacity-80"
               style={{
-                backgroundColor: "#8b5cf618",
-                color: "#8b5cf6",
-                border: "1px solid #8b5cf630",
+                backgroundColor: "#ffffff0d",
+                color: "#ffffff",
+                border: "1px solid #ffffff18",
               }}
             >
               Découvrir Liflow <ExternalLink size={12} />
@@ -151,9 +151,9 @@ export default async function BlogPostPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition-opacity hover:opacity-80"
               style={{
-                backgroundColor: "#22d3ee18",
-                color: "#22d3ee",
-                border: "1px solid #22d3ee30",
+                backgroundColor: "#ffffff0d",
+                color: "#ffffff",
+                border: "1px solid #ffffff18",
               }}
             >
               Découvrir InfraLens <ExternalLink size={12} />

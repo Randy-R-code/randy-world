@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.1] — 2026-03-29
+
+### Améliorations
+
+- **Bouton retour** — "Randy World" → "Retour à la carte" sur toutes les pages (PageShell + 404)
+- **Badge InfraLens** (Apps Station) — couleur cyan remplacée par violet clair (`#a78bfa`), dans le ton de la page
+- **Boutons blog** — Liflow et InfraLens en blanc discret au lieu des couleurs de zone
+- **Cohérence UI** — actions en français partout ("Explorer →", "Retour à la carte") ; noms de zones restent anglais (noms propres)
+- **Renommage** — repo `randy-world` → `randy-code`, toutes les métadonnées mises à jour ("Randy World" → "Randy Code")
+
+---
+
 ## [0.5.0] — 2026-03-27
 
 ### Ajouts

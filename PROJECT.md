@@ -1,4 +1,4 @@
-# Randy World — Interactive Portfolio
+# Randy Code — Interactive Portfolio
 
 ## Vision
 
@@ -12,7 +12,7 @@ Portfolio thématique avec navigation par carte du monde. Chaque zone correspond
 
 ## Positionnement
 
-> Randy World présente un développeur fullstack freelance avec un parcours technique terrain — des produits concrets, utiles et durables.
+> Randy Code présente un développeur fullstack freelance avec un parcours technique terrain — des produits concrets, utiles et durables.
 
 ---
 

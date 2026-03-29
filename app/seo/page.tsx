@@ -3,7 +3,7 @@ import { Globe, MapPin, Search, TrendingUp } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SEO District — Randy World",
+  title: "SEO District — Randy Code",
   description:
     "Référencement local et création de sites vitrines pour artisans et PME partout en France. Audit SEO, Google Maps, sites performants.",
 };
