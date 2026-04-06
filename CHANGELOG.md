@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.4] — 2026-04-06
+
+### Corrections
+
+- **PWA orientation** — `orientation: "portrait-primary"` → `"any"` dans `app/manifest.ts` : supprime le verrouillage portrait qui empêchait la rotation en paysage
+
+---
+
 ## [0.5.3] — 2026-04-03
 
 ### Corrections
